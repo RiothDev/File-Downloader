@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "File Downloader",
+    "version": "0.0.1",
+    "description": "An extension to install files with their URL.",
+    "icons": {
+        "128": "assets/Icon.png"
+    },
+    "permissions": [
+        "activeTab",
+        "downloads"
+    ],
+    "action": {
+        "default_popup": "src/popup.html"
+    }
+}
