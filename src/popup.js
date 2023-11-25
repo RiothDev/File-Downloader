@@ -22,8 +22,11 @@ document.addEventListener("DOMContentLoaded", () => {
                 conflictAction: "uniquify",
                 saveAs: true
             })
+
         } else {
             alert("Invalid URL")
         }
+
+        document.getElementById("URL-Input").value = ''
     })
 })
